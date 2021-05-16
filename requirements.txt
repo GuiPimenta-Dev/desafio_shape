@@ -5,4 +5,8 @@ pymongo
 dnspython
 pytest
 pytest-sugar
-httpx 
+httpx
+flasgger
+flask_restful_swagger
+flask-cors
+gunicorn

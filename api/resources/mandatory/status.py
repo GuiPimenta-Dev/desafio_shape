@@ -1,9 +1,23 @@
 from ...db.conn import ConnectToDatabase
 from flask_restful import Resource,request
 from ...constants.status import StatusEnum
-
+from flask_restful_swagger import swagger 
+    
 
 class Status(Resource,ConnectToDatabase):
+    @swagger.model
+    @swagger.operation(
+    notes='Change equipment status',
+        parameters=[
+            {
+              "name": "code",
+              "description": "list of equipment codes separated by commas",
+              "required": True,
+              "allowMultiple": False,
+              "paramType": "query"
+            }
+          ]
+        )
     def get(self):
         if not request.args:
             return {"message": 'Query params missing'}, 400

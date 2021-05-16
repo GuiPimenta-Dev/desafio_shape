@@ -1,8 +1,23 @@
 from ...db.conn import ConnectToDatabase
 from flask_restful import Resource,request
+from flask_restful_swagger import swagger
 
 
 class Vessels(Resource,ConnectToDatabase):
+    @swagger.model
+    @swagger.operation(
+    notes='Create new vessels',
+        parameters=[
+            {
+              "name": "code",
+              "description": "Unique code for vessel",
+              "required": True,
+              "allowMultiple": False,
+              "dataType": "string",
+              "paramType": "form"
+            }
+          ]
+        )
     def post(self):
         args = request.form
 

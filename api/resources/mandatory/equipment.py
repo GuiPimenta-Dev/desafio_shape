@@ -1,11 +1,14 @@
 from ...db.conn import ConnectToDatabase
 from flask_restful import Resource, request
 from ...constants.status import StatusEnum
+from flask_restful_swagger import swagger
 
 
-class Equipment(Resource,ConnectToDatabase):   
+class Equipment(Resource,ConnectToDatabase):  
+    @swagger.model
+    @swagger.operation(notes='some notes')
     def post(self, code):
-
+        
         args = request.form
 
         if not 'code' in args:
