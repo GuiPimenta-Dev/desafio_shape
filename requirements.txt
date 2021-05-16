@@ -4,3 +4,5 @@ markdown==2.6.11
 pymongo
 dnspython
 pytest
+pytest-sugar
+httpx 

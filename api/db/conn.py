@@ -1,5 +1,5 @@
 import pymongo
-from .env import USER,PASS,DB,RETRY,VESSELS,EQUIPMENTS
+from env import USER,PASS,DB,RETRY,VESSELS,EQUIPMENTS
 
 class ConnectToDatabase():
     conn = pymongo.MongoClient(
