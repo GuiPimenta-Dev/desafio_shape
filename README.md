@@ -7,23 +7,21 @@ The challenge is presented below:
 
 The challenge was to create a simple python api, but I took the liberty of creating a frontend to consume the available endpoints.
 
-The front functionalities is presented below:
+**The front functionalities is presented below:**
 
 <img src = "utils/gif-frontend2.gif">
 
-The front is hosted on netlify, and you can easily acess it on : https://shapechallenge.netlify.app/
+**The front is hosted on netlify, and you can easily acess it on : https://shapechallenge.netlify.app/**
 
 
 The api is hosted on heroku and has the following endpoints:
 
 <img src ="utils/available_endpoints.PNG">
 
-The base url is https://shapechallenge.herokuapp.com/ 
 
+**The base url is https://shapechallenge.herokuapp.com/**
 
-The api documentation is presented on: https://shapechallenge.herokuapp.com/docs.html
-
-It`s possible to test the available endpoints as shown below:
+**It`s possible to test the available endpoints on https://shapechallenge.herokuapp.com/docs.html:**
 
 <img src="utils/api_documentation.PNG">
 
