@@ -122,7 +122,7 @@ Results (4.48s):
 
 **3. Heroku**
 
-* Great choice of server for hosting back-end applications.
+* Great free cloud option for hosting back-end applications with CI/CD integrations.
      
 * Used to host the API.
 
@@ -139,7 +139,7 @@ Results (4.48s):
 
 **5. Netlify**
     
-* Great choice of server for hosting front-end applications.
+* Great free cloud option for hosting front-end applications with CI/CD integrations.
 
 * Used to host the front-end.
 
