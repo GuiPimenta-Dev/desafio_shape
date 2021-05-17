@@ -14,17 +14,16 @@ The challenge was to create a simple python api, but I also created a frontend t
  
 The frontend is hosted on Netlify, click the link to see more: https://shapechallenge.netlify.app/
 
+The api is hosted on Heroku and the base url is: https://shapechallenge.herokuapp.com/
 
 **The api has the following endpoints:**
 
 <img src ="utils/available_endpoints.PNG">
 
 
-The api is hosted on Heroku, the base url is: https://shapechallenge.herokuapp.com/
+Test the available endpoints in: https://shapechallenge.herokuapp.com/docs.html
 
-
-**It`s possible to test the available endpoints in https://shapechallenge.herokuapp.com/docs.html**
-
+<img src="utils/expand_operations.PNG">
 <img src="utils/api_documentation.PNG">
 <img src="utils/created_vessel_endpoint.PNG">
 
