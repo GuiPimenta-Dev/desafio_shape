@@ -18,8 +18,8 @@ CORS(app)
 
 # Mandatory endpoints
 api.add_resource(Vessels, '/vessels')
-api.add_resource(Vessel, '/vessel/<string:vessel>')
-api.add_resource(Equipment, '/equipment/<string:code>')
+api.add_resource(Vessel, '/vessel/<string:code>')
+api.add_resource(Equipment, '/equipment/<string:vessel>')
 api.add_resource(Status, '/status')
 
 # Extra endpoints

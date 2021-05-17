@@ -10,8 +10,8 @@ class Equipment(Resource,ConnectToDatabase):
     notes='Create an equipment from an valid vessel',
         parameters=[
             {
-              "name": "code",
-              "description": "Equipment code",
+              "name": "vessel",
+              "description": "Vessel whose equipment belongs to",
               "required": True,
               "allowMultiple": False,
               "dataType": "string",
@@ -25,10 +25,26 @@ class Equipment(Resource,ConnectToDatabase):
               "dataType": "string",
               "paramType": "form"
             }, 
+            {
+              "name": "code",
+              "description": "Code of the equipment",
+              "required": True,
+              "allowMultiple": False,
+              "dataType": "string",
+              "paramType": "form"
+            }, 
+            {
+              "name": "location",
+              "description": "Location of the equipment",
+              "required": True,
+              "allowMultiple": False,
+              "dataType": "string",
+              "paramType": "form"
+            }, 
 
           ]
         )
-    def post(self, code):
+    def post(self, vessel):
         
         args = request.form
 
@@ -53,7 +69,7 @@ class Equipment(Resource,ConnectToDatabase):
             return {'message': 'Equipment location can`t be null'}, 400
 
 
-        if not self.collection_vessels.find_one({'code': code}):
+        if not self.collection_vessels.find_one({'code': vessel}):
             return {'message': 'Vessel not found'}, 404
   
         else:
@@ -61,7 +77,7 @@ class Equipment(Resource,ConnectToDatabase):
                 return {'message': f'The equipment code must be unique'}, 400
             else:
                 equipment = {
-                                "vessel": code,
+                                "vessel": vessel,
                                 "code": args['code'],
                                 "name": args['name'],
                                 "location": args['location'],
