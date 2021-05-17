@@ -6,7 +6,28 @@ from flask_restful_swagger import swagger
 
 class Equipment(Resource,ConnectToDatabase):  
     @swagger.model
-    @swagger.operation(notes='some notes')
+    @swagger.operation(
+    notes='Create an equipment from an valid vessel',
+        parameters=[
+            {
+              "name": "vessel",
+              "description": "Vessel that contains this equipment",
+              "required": True,
+              "allowMultiple": False,
+              "dataType": "string",
+              "paramType": "path"
+            }, 
+            {
+              "name": "name",
+              "description": "Name of the equipment",
+              "required": True,
+              "allowMultiple": False,
+              "dataType": "string",
+              "paramType": "form"
+            }, 
+
+          ]
+        )
     def post(self, code):
         
         args = request.form

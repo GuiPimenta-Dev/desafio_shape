@@ -13,8 +13,8 @@ from .resources.extra.list_vessels import ListVessels
 
 app = Flask(__name__)
 api = swagger.docs(Api(app),apiVersion='1.0',api_spec_url='/docs')
-
 CORS(app)
+
 
 # Mandatory endpoints
 api.add_resource(Vessels, '/vessels')
