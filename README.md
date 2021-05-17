@@ -29,6 +29,30 @@ The api is hosted on Heroku: https://shapechallenge.herokuapp.com/
 
 <img src="utils/created_vessel_endpoint.PNG">
 
+
+### Setup locally
+```bash
+$ git clone https://github.com/GuiPimenta-Dev/desafio_shape.git
+$ cd desafio_shape
+```
+
+### Configure environment variables
+```bash
+$ cp env_example.py env.py
+```
+
+Edit env.py and place your own Mongo DB credentials and collections
+
+### Start the server
+```bash
+$ docker-compose build
+$ docker-compose up
+```
+
+The server will start running at http://localhost:5000/
+
+
+
 ### Test Output
 ```bash
 $ pytest .
@@ -63,8 +87,11 @@ Results (4.48s):
       19 passed
 ```
 
-### To Setup locally
-```bash
-git clone  
-python app.py
-```
+### Technologies used:
+
+* Docker
+* Flask
+* MongoDB
+* React
+* Swagger
+
