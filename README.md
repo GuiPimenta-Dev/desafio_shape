@@ -14,9 +14,13 @@ The challenge was to create a Python API, but I also created a front-end in Reac
  
 The frontend is hosted on Netlify, click the link to see more: https://shapechallenge.netlify.app/
 
-The api is written in Python/Flask and is hosted on Heroku with the BASE URL: `https://shapechallenge.herokuapp.com/`
+The API is written in Python/Flask and hosted on Heroku.
 
-**The api has the following endpoints:**
+
+**BASE URL:** `https://shapechallenge.herokuapp.com/`
+
+
+The API has the following endpoints:
 
 <img src ="utils/available_endpoints.PNG">
 
