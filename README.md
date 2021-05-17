@@ -163,7 +163,7 @@ Results (4.48s):
 
 **8. Swagger**
 
- * Great tool for apis documentation and to facilitate the visualization of endpoints between different teams.
+ * Great tool to facilitate the visualization of endpoints between different teams.
 
  * Used to build the API documentation.
       
