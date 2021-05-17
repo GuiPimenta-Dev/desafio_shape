@@ -8,15 +8,15 @@ class Status(Resource,ConnectToDatabase):
     @swagger.model
     @swagger.operation(
     notes='Change equipment status',
-        parameters=[
-            {
-              "name": "code",
-              "description": "list of equipment codes separated by commas",
-              "required": True,
-              "allowMultiple": False,
-              "paramType": "query"
-            }
-          ]
+        # parameters=[
+        #     {
+        #       "name": "code",
+        #       "description": "list of equipment codes separated by commas",
+        #       "required": True,
+        #       "allowMultiple": False,
+        #       "paramType": "query"
+        #     }
+        #   ]
         )
     def get(self):
         if not request.args:
