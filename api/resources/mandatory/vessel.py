@@ -7,7 +7,17 @@ from flask_restful_swagger import swagger
 
 class Vessel(Resource,ConnectToDatabase):    
     @swagger.model
-    @swagger.operation(notes='List all active equipments of a vessel')
+    @swagger.operation(notes='List all active equipments of a vessel',parameters=[
+            {
+              "name": "code",
+              "description": "Vessel code to list active equipments",
+              "required": True,
+              "allowMultiple": False,
+              "dataType": "string",
+              "paramType": "path"
+            }
+            ] 
+            )
     def get(self, code):       
         
         if not self.collection_vessels.find_one({'code': code}):
