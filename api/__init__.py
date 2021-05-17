@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_restful import Api
 from flask_restful_swagger import swagger
-from flask_cors import CORS
 
 from .resources.mandatory.equipment import Equipment
 from .resources.mandatory.status import Status
@@ -24,6 +23,4 @@ api.add_resource(Status, '/status')
 # Extra endpoints
 api.add_resource(ListVessels, '/listvessels')
 api.add_resource(ListEquipments, '/listequipaments')
-
-
 
