@@ -7,7 +7,7 @@ The challenge is presented below:
 
 The challenge was to create a simple python api, but I took the liberty of creating a frontend to consume the available endpoints.
 
-The front is presented below:
+The front functionalities is presented below:
 
 <img src = "utils/gif-frontend2.gif">
 
