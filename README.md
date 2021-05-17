@@ -89,7 +89,7 @@ Results (4.48s):
 
 * Docker
 * MongoDB
-* Python/Flask
+* Python (Flask)
 * React
 * Swagger
 
