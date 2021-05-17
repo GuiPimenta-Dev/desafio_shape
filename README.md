@@ -25,7 +25,13 @@ The api is hosted on Heroku, the base url is: https://shapechallenge.herokuapp.c
 
 **It`s possible to test the available endpoints in https://shapechallenge.herokuapp.com/docs.html**
 
+<img src="utils/expand_operations.PNG">
+
+
+
 <img src="utils/api_documentation.PNG">
+
+
 
 <img src="utils/created_vessel_endpoint.PNG">
 
