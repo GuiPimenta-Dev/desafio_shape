@@ -16,7 +16,7 @@ api = swagger.docs(
                    Api(app),
                    apiVersion='1.0',
                    api_spec_url='/docs',
-                   description='Shape Hard skills test assignment - created by Guilherme Alves Pimenta'
+                   description='Shape Hard skills test assignment - created by Guilherme Alves Pimenta (click Show/Hide to list the available endpoints)'
                    )
 CORS(app)
 
