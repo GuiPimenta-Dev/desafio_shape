@@ -24,3 +24,6 @@ api.add_resource(Status, '/status')
 api.add_resource(ListVessels, '/listvessels')
 api.add_resource(ListEquipments, '/listequipaments')
 
+if __name__ == '__main__':
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(threaded=True, port=5000)
