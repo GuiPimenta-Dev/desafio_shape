@@ -14,7 +14,7 @@ The challenge was to create a python api, but I also created a front-end in Reac
  
 The frontend is hosted on Netlify, click the link to see more: https://shapechallenge.netlify.app/
 
-The api is hosted on Heroku and the base url is: https://shapechallenge.herokuapp.com/
+The api is hosted on Heroku and the BASE URL is: `https://shapechallenge.herokuapp.com/`
 
 **The api has the following endpoints:**
 
