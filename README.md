@@ -5,7 +5,7 @@ The challenge is presented below:
 <img src = "utils/hard-skills-assignment-shape.PNG">
 
 
-The challenge was to create a python api, but I also created a front-end in React to consume the available endpoints.
+The challenge was to create a Python API, but I also created a front-end in React to consume the available endpoints.
 
 **The front functionalities is presented below:**
 
@@ -14,7 +14,7 @@ The challenge was to create a python api, but I also created a front-end in Reac
  
 The frontend is hosted on Netlify, click the link to see more: https://shapechallenge.netlify.app/
 
-The api is hosted on Heroku and the BASE URL is: `https://shapechallenge.herokuapp.com/`
+The api is written in Python/Flask and is hosted on Heroku with the BASE URL: `https://shapechallenge.herokuapp.com/`
 
 **The api has the following endpoints:**
 
