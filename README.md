@@ -132,7 +132,7 @@ Results (4.48s):
       
 **4. MongoDB**
 
- * MongoDB was a great choice for its performance and speed of development since complex relationships between tables were not needed.
+ * MongoDB is a great choice for its performance and speed of development since complex relationships between tables were not needed.
 
  * Used to store data.
 
