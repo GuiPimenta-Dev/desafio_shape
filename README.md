@@ -5,7 +5,7 @@ The challenge is presented below:
 <img src = "utils/hard-skills-assignment-shape.PNG">
 
 
-The challenge was to create a python api, but I also created a front-end to consume the available endpoints.
+The challenge was to create a python api, but I also created a front-end in React JS to consume the available endpoints.
 
 **The front functionalities is presented below:**
 
