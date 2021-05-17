@@ -88,8 +88,8 @@ Results (4.48s):
 ### Technologies used:
 
 * Docker
-* Flask
 * MongoDB
+* Python/Flask
 * React
 * Swagger
 
