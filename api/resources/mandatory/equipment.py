@@ -10,8 +10,8 @@ class Equipment(Resource,ConnectToDatabase):
     notes='Create an equipment from an valid vessel',
         parameters=[
             {
-              "name": "vessel",
-              "description": "Vessel that contains this equipment",
+              "name": "code",
+              "description": "Equipment code",
               "required": True,
               "allowMultiple": False,
               "dataType": "string",

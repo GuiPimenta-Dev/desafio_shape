@@ -8,18 +8,18 @@ from flask_restful_swagger import swagger
 class Vessel(Resource,ConnectToDatabase):    
     @swagger.model
     @swagger.operation(notes='List all active equipments of a vessel')
-    def get(self, code):       
+    def get(self, vessel):       
         
-        if not self.collection_vessels.find_one({'code': code}):
+        if not self.collection_vessels.find_one({'code': vessel}):
             return {'message': 'Vessel not found'}, 404
 
         objects = []
-        for object in self.collection_equipments.find({'vessel': code , 'status': StatusEnum.ACTIVE }, {"_id": 0}):            
+        for object in self.collection_equipments.find({'vessel': vessel , 'status': StatusEnum.ACTIVE }, {"_id": 0}):            
             objects.append(object)
 
         if objects:
             return {
-                    'message': f'Vessel {code} contains active equipments',
+                    'message': f'Vessel {vessel} contains active equipments',
                     'data': objects
                     }, 200 
         else:
