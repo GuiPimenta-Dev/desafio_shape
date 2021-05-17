@@ -1,6 +1,3 @@
-# RUN API LOCALLY
-DEV = True
-
 # INSERT MONGO DB USER
 USER = 
 
