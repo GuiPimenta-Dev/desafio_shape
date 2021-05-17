@@ -23,5 +23,9 @@ The base url is https://shapechallenge.herokuapp.com/
 
 The api documentation is presented on: https://shapechallenge.herokuapp.com/docs.html
 
+It`s possible to test the available endpoints as shown below:
+
+<img src="utils/api_documentation.PNG">
+
 
 
