@@ -11,7 +11,7 @@ class Status(Resource,ConnectToDatabase):
         parameters=[
             {
               "name": "code",
-              "description": "Code or list of codes to change the status",
+              "description": "Code or list of codes to change the status separated by comma",
               "required": True,
               "allowMultiple": False,
               "dataType": "string",

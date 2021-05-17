@@ -5,7 +5,7 @@ from flask_restful_swagger import swagger
 
 class ListEquipments(Resource,ConnectToDatabase): 
     @swagger.model
-    @swagger.operation(notes='some notes')
+    @swagger.operation(notes='list all equipments')
     def get(self):            
             objects = []
             for object in self.collection_equipments.find({},{"_id":0}):
