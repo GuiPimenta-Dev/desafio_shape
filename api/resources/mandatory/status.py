@@ -7,13 +7,14 @@ from flask_restful_swagger import swagger
 class Status(Resource,ConnectToDatabase):
     @swagger.model
     @swagger.operation(
-    notes='Change equipment status',
+    notes='Create new vessels',
         parameters=[
             {
               "name": "code",
-              "description": "list of equipment codes separated by commas",
+              "description": "Unique code for vessel",
               "required": True,
               "allowMultiple": False,
+              "dataType": "string",
               "paramType": "query"
             }
           ]
