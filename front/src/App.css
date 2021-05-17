@@ -1,0 +1,35 @@
+.box {
+	height: 350px;
+}
+
+.box2 {
+	height: 150px;
+}
+
+body {
+	position: relative;
+}
+
+.toast-fixed {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	min-width: 200px;
+}
+
+.button-react {
+	background-color: #f48b05;
+	position: absolute;
+	right: 30px;
+}
+
+.button-react:hover {
+	background-color: #fff;
+	color: #f48b05;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

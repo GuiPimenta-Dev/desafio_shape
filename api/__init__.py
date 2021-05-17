@@ -29,4 +29,4 @@ api.add_resource(Status, '/status')
 
 # Extra endpoints
 api.add_resource(ListVessels, '/listvessels')
-api.add_resource(ListEquipments, '/listequipaments')
+api.add_resource(ListEquipments, '/listequipments')
