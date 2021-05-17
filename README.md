@@ -5,7 +5,7 @@ The challenge is presented below:
 <img src = "utils/hard-skills-assignment-shape.PNG">
 
 
-The challenge was to create a simple python api, but I took the liberty of creating a frontend to consume the endpoints
+The challenge was to create a simple python api, but I took the liberty of creating a frontend to consume the available endpoints.
 
 The front is presented below:
 
@@ -13,8 +13,15 @@ The front is presented below:
 
 The front is hosted on netlify, and you can easily acess it on : https://shapechallenge.netlify.app/
 
-the api is hosted on heroku and has the following endpoints:
 
-and can be accessed through the following url: https://shapechallenge.herokuapp.com/
+The api is hosted on heroku and has the following endpoints:
+
+<img src ="utils/available_endpoints.PNG">
+
+The base url is https://shapechallenge.herokuapp.com/ 
+
+
+The api documentation is presented on: https://shapechallenge.herokuapp.com/docs.html
+
 
 
