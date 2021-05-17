@@ -1,2 +1,2 @@
-<img src = "utils/hard-skills-assignment-shape.png">
+<img src = "utils/hard-skills-assignment-shape.PNG">
 <img src = "utils/gif-frontend.gif">
