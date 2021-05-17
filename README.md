@@ -27,6 +27,6 @@ It`s possible to test the available endpoints as shown below:
 
 <img src="utils/api_documentation.PNG">
 
-<img src="utils/created_vessel.PNG">
+<img src="utils/created_vessel_endpoint.PNG">
 
 
