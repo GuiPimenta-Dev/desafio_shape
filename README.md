@@ -11,17 +11,19 @@ The challenge was to create a simple python api, but I took the liberty of creat
 
 <img src = "utils/gif-frontend2.gif">
 
-**The front is hosted on netlify, and you can easily acess it on : https://shapechallenge.netlify.app/**
+ 
+The front is hosted on Netlify:   https://shapechallenge.netlify.app/
 
 
-The api is hosted on heroku and has the following endpoints:
+**The api has the following endpoints:**
 
 <img src ="utils/available_endpoints.PNG">
 
 
-**The base url is https://shapechallenge.herokuapp.com/**
+The api is hosted on Heroku: https://shapechallenge.herokuapp.com/
 
-**It`s possible to test the available endpoints on https://shapechallenge.herokuapp.com/docs.html:**
+
+**It`s possible to test the available endpoints in https://shapechallenge.herokuapp.com/docs.html**
 
 <img src="utils/api_documentation.PNG">
 
@@ -59,4 +61,10 @@ collecting ...
 
 Results (4.48s):
       19 passed
+```
+
+### To Setup locally
+```bash
+git clone  
+python app.py
 ```
