@@ -15,4 +15,4 @@ class ConnectToDatabase():
 #     collection_vessels = db[VESSELS]
 #     collection_equipments = db[EQUIPMENTS]
     collection_vessels = db[os.environ['VESSELS']]
-    collection_equipment = db[os.environ['EQUIPMENTS']]
+    collection_equipments = db[os.environ['EQUIPMENTS']]
