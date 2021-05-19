@@ -7,7 +7,7 @@ from flask_restful_swagger import swagger
 class Equipment(Resource,ConnectToDatabase):  
     @swagger.model
     @swagger.operation(
-    notes='Create an equipment from an valid vessel',
+    notes='Create an equipment from a valid vessel',
         parameters=[
             {
               "name": "vessel",
