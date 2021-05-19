@@ -6,7 +6,7 @@ The challenge is presented below:
 
 <br/>
 
-The challenge was to create a Python API, but I also created a front-end in React to consume the available endpoints.
+The challenge was to create a Python API, but I have also created a front-end in React to consume the available endpoints.
 
 **The front functionalities is presented below:**
 
